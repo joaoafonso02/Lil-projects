@@ -2,7 +2,6 @@ import random
 
 
 class TicTacToe:
-
     def __init__(self):
         self.board = []
 
@@ -95,7 +94,7 @@ class TicTacToe:
 
             # taking user input
             row, col = list(
-                map(int, input("Enter row and column numbers to fix spot: ").split()))
+                map(int, input("Enter row and column numbers to fix spot: (Example: 2 1) ").split()))
             print()
 
             # fixing the spot
